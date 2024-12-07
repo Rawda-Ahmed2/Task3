@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+h2,
+h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.sec-1 {
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+    img {
+        margin-block: 50px;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 25px;
+        color: #C0C4C4;
+    }
+
+    button {
+        color: #fff;
+        padding-inline: 30px;
+        padding-block: 15px;
+        border-radius: 30px;
+        border-color: transparent;
+    }
+
+    .btn1 {
+        background-color: #26BBA5;
+    }
+
+    .btn2 {
+        background-color: #6174FF;
+    }
+}
+
+.sec-2 {
+    text-align: center;
+    margin-block: 50px;
+    padding-top: 50px;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 25px;
+        color: #C0C4C4;
+    }
+}
+
+.sec-3 {
+    margin-block: 50px;
+    padding-top: 50px;
+
+    .sec3-container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .left {
+        width: 50%;
+        float: left;
+        padding-right: 50px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .sec3-content {
+        width: 50%;
+        float: left;
+        margin-top: 80px;
+        padding-left: 50px;
+
+        .content {
+            margin-bottom: 30px;
+
+            p {
+                color: #C0C4C4;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .clear-fix {
+        clear: left;
+    }
+}
+
+.sec-4 {
+    text-align: center;
+    margin-block: 50px;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: #C0C4C4;
+    }
+
+    img {
+        margin-top: 20px;
+        width: 80%;
+    }
+}
+
+.sec-5 {
+    text-align: center;
+    margin-block: 50px;
+
+    .sec5-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 50px;
+        color: #C0C4C4;
+    }
+
+    .card {
+        float: left;
+        width: 33.3333%;
+        margin-top: 30px;
+
+        h3 {
+            margin-block: 15px;
+        }
+
+        p {
+            color: #C0C4C4;
+        }
+    }
+
+    .clear-fix {
+        clear: left;
+    }
+}
+
+.sec-6 {
+    text-align: center;
+    margin-block: 50px;
+
+    .sec6-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .img-card {
+        float: left;
+        width: 20%;
+    }
+
+    .clear-fix {
+        clear: left;
+    }
+}
+
+.sec-7 {
+    text-align: center;
+    margin-block: 50px;
+    padding-block: 50px;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 40px;
+        color: #C0C4C4;
+    }
+
+    button {
+        color: #fff;
+        padding-inline: 30px;
+        padding-block: 15px;
+        border-radius: 30px;
+        border-color: transparent;
+    }
+
+    .btn1 {
+        background-color: #26BBA5;
+    }
+
+    .btn2 {
+        background-color: #6174FF;
+    }
+}
+
+.sec-8 {
+    background-color: #F5F6F8;
+    padding-block: 30px;
+
+    .clear-fix {
+        clear: both;
+    }
+
+    .sec8-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .left {
+        float: left;
+        width: 80%;
+
+        .part1 {
+            float: left;
+            width: 20%;
+
+            img {
+                width: 30%;
+                margin-top: 25px;
+            }
+
+        }
+
+        .part2 {
+            margin-right: 30px;
+            margin-top: 18px;
+            line-height: 2;
+            text-align: left;
+            color: #C0C4C4;
+        }
+
+        .clear-fix {
+            clear: left;
+        }
+    }
+
+    .right {
+        float: right;
+        width: 20%;
+
+        .part1-r {
+            margin-inline: 10px;
+            padding-top: 25px;
+
+            img {
+                width: 100%;
+            }
+
+            float: left;
+
+            .clear-fix {
+                clear: left;
+            }
+        }
+    }
+
+}
